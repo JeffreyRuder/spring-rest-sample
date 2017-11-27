@@ -3,6 +3,7 @@ package com.example.Beer.controller
 import com.example.Beer.domain.Beer
 import com.example.Beer.config.BeerNotFoundException
 import com.example.Beer.repository.BeerRepository
+import io.swagger.annotations.ApiModel
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.dao.DataIntegrityViolationException
 import org.springframework.http.HttpStatus

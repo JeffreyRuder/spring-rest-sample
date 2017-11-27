@@ -1,5 +1,6 @@
 package com.example.Beer.domain
 
+import io.swagger.annotations.ApiModel
 import org.hibernate.annotations.GenericGenerator
 
 import javax.persistence.Column
@@ -10,6 +11,7 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "beers")
+@ApiModel
 class Beer {
 
     @Id

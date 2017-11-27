@@ -20,3 +20,6 @@ appropriate use of HTTP verbs, etc.
 * Clone repository
 * Set up a run configuration to execute Gradle tasks: clean bootRun
 * Default server port is 8080
+
+### Swagger Documentation
+http://localhost:8080/swagger-ui.html
