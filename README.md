@@ -9,6 +9,8 @@ appropriate use of HTTP verbs, etc.
 * Integration tests using REST Assured.
 * Auto-generated UUIDs rather than longs for IDs.
 * Java 8 Optional handling with Groovy.
+* Swagger Documentation
+* Spring Boot Actuator Metrics
 
 ### Project Setup - IntelliJ
 * File > New > Project From Existing Sources
@@ -23,3 +25,9 @@ appropriate use of HTTP verbs, etc.
 
 ### Swagger Documentation
 http://localhost:8080/swagger-ui.html
+
+### Metrics
+http://localhost:8080/metrics
+
+Normally full authentication would be required to access metrics, but I've marked the endpoint as non-sensitive 
+for demonstration purposes.
